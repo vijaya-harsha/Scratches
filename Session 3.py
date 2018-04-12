@@ -13,8 +13,7 @@ print(_Name + ' ' + Name1 + ' ' + name2 )
 #    TypeError: must be str, not int
 #    We cant concatenate a String and an Int datatypes
 
-print (Name1 + age)
+#print (Name1 + age)
 
-
-print age
+print (age)
 
