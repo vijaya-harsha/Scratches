@@ -16,3 +16,5 @@ print(_Name + ' ' + Name1 + ' ' + name2 )
 print (Name1 + age)
 
 
+print age
+
