@@ -74,3 +74,21 @@ for i in range(1, 10):
 # No.  7 squared is  343 and cubed is  343
 # No.  8 squared is  512 and cubed is  512
 # No.  9 squared is  729 and cubed is  729
+
+for i in range(1, 10):
+    print("No. {0:2} squared is {2:<4} and cubed is {2:<4}".format(i, i ** 2, i ** 3))
+
+# In below output we can see that the numbers are left aligned
+# Since we have used < in {2:<4} the text is aligned to left
+
+# Output
+# No.  1 squared is 1    and cubed is 1
+# No.  2 squared is 8    and cubed is 8
+# No.  3 squared is 27   and cubed is 27
+# No.  4 squared is 64   and cubed is 64
+# No.  5 squared is 125  and cubed is 125
+# No.  6 squared is 216  and cubed is 216
+# No.  7 squared is 343  and cubed is 343
+# No.  8 squared is 512  and cubed is 512
+# No.  9 squared is 729  and cubed is 729
+
