@@ -1,5 +1,6 @@
 # Session 6
 # String Formating
+
 _author_ = 'Harsha'
 
 age = 27
