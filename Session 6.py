@@ -57,7 +57,7 @@ Dec: {2}""".format(28, 30, 31))
 # Example 4
 
 for i in range(1, 10):
-    print("No. {0:2} squared is {2:4} and cubed is {2:4}".format(i, i ** 2, i ** 3))
+    print("No. {0:2} squared is {1:4} and cubed is {2:4}".format(i, i ** 2, i ** 3))
 
 # Here in {0:2}
 # 0 is called the replacement field
@@ -66,29 +66,44 @@ for i in range(1, 10):
 
 # Output
 # No.  1 squared is    1 and cubed is    1
-# No.  2 squared is    8 and cubed is    8
-# No.  3 squared is   27 and cubed is   27
-# No.  4 squared is   64 and cubed is   64
-# No.  5 squared is  125 and cubed is  125
-# No.  6 squared is  216 and cubed is  216
-# No.  7 squared is  343 and cubed is  343
-# No.  8 squared is  512 and cubed is  512
-# No.  9 squared is  729 and cubed is  729
+# No.  2 squared is    4 and cubed is    8
+# No.  3 squared is    9 and cubed is   27
+# No.  4 squared is   16 and cubed is   64
+# No.  5 squared is   25 and cubed is  125
+# No.  6 squared is   36 and cubed is  216
+# No.  7 squared is   49 and cubed is  343
+# No.  8 squared is   64 and cubed is  512
+# No.  9 squared is   81 and cubed is  729
 
 for i in range(1, 10):
-    print("No. {0:2} squared is {2:<4} and cubed is {2:<4}".format(i, i ** 2, i ** 3))
+    print("No. {0:2} squared is {1:<4} and cubed is {2:<4}".format(i, i ** 2, i ** 3))
 
 # In below output we can see that the numbers are left aligned
 # Since we have used < in {2:<4} the text is aligned to left
 
 # Output
 # No.  1 squared is 1    and cubed is 1
-# No.  2 squared is 8    and cubed is 8
-# No.  3 squared is 27   and cubed is 27
-# No.  4 squared is 64   and cubed is 64
-# No.  5 squared is 125  and cubed is 125
-# No.  6 squared is 216  and cubed is 216
-# No.  7 squared is 343  and cubed is 343
-# No.  8 squared is 512  and cubed is 512
-# No.  9 squared is 729  and cubed is 729
+# No.  2 squared is 4    and cubed is 8
+# No.  3 squared is 9    and cubed is 27
+# No.  4 squared is 16   and cubed is 64
+# No.  5 squared is 25   and cubed is 125
+# No.  6 squared is 36   and cubed is 216
+# No.  7 squared is 49   and cubed is 343
+# No.  8 squared is 64   and cubed is 512
+# No.  9 squared is 81   and cubed is 729
 
+for i in range(1, 10):
+    print("No. {} squared is {} and cubed is {}".format(i, i ** 2, i ** 3))
+
+# In the above example we can see that we didn't mention any replacement field number but
+# by default it will take the place as assigned in the .format seperated by ,
+
+# No. 1 squared is 1 and cubed is 1
+# No. 2 squared is 4 and cubed is 8
+# No. 3 squared is 9 and cubed is 27
+# No. 4 squared is 16 and cubed is 64
+# No. 5 squared is 25 and cubed is 125
+# No. 6 squared is 36 and cubed is 216
+# No. 7 squared is 49 and cubed is 343
+# No. 8 squared is 64 and cubed is 512
+# No. 9 squared is 81 and cubed is 729
