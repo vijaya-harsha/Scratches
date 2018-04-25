@@ -1,6 +1,4 @@
-import string
-
-_Author = "Harsha"
+Author = "Harsha"
 
 # Create a program that takes an IP address entered at the keyboard
 # and prints out the number of segments it contains, and the length of each segment.
@@ -31,8 +29,20 @@ _Author = "Harsha"
 #
 IPAddress = input("Please Enter the IP Address:")
 
-# print(IPAddress)
+segment = 1
+segment_length = 0
+character = ""
 
-for i in range(0, len(IPAddress)):
-    if IPAddress[i] in "0123456789":
-        print(IPAddress[i], end='')
+for character in ipAddress:
+    if character == '.':
+        print("segment {} contains {} characters".format(segment, segment_length))
+        segment += 1
+        segment_length = 0
+    else:
+        segment_length += 1
+
+# unless the final character in the string was a . then we haven't printed the last segment
+if character != '.':
+    print("segment {} contains {} characters".format(segment, segment_length))
+
+
