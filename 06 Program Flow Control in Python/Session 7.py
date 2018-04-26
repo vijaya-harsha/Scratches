@@ -21,5 +21,5 @@ greeting = "Good "
 greeting += "Evening "
 print(greeting)
 
-greeting *=5
+greeting *= 5
 print(greeting)
