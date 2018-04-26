@@ -27,7 +27,7 @@ Author = "Harsha"
 # you could use other techniques (such as splitting the string up), that's not the
 # approach we're looking for here.
 #
-IPAddress = input("Please Enter the IP Address:")
+ipAddress = input("Please Enter the IP Address:")
 
 segment = 1
 segment_length = 0
