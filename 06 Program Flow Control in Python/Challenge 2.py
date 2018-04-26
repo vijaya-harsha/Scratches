@@ -46,3 +46,4 @@ if character != '.':
     print("segment {} contains {} characters".format(segment, segment_length))
 
 
+
