@@ -11,7 +11,7 @@
 import random
 
 low=1
-high=10
+high=100
 answer = random.randint(low, high)
 print(answer)
 guess = int(input("Please Input the Guess between {} and {} :".format(low, high)))
