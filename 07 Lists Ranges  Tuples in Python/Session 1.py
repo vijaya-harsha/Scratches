@@ -7,9 +7,20 @@ _Author = "Harsha"
 
 # Lists
 
-groceries = ["Atta", "Jam", "Ketchup", "Pasta"]
+groceries = ['Atta', 'Jam', 'Ketchup', 'Pasta']
+groceries2 = ['Chocolates', 'Drink', 'Beer', 'Vodka']
 
-groceries.append("PaperBoat")
+# We can add one item to a list using append() method
 
-for items in groceries:
+groceries.append('PaperBoat')
+
+groceries3 = groceries + groceries2
+
+groceries.count('Atta')
+
+for items in groceries3:
     print("Groceries that are needed " + items)
+
+print(groceries.count("Atta"))
+
+
