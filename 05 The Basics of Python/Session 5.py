@@ -4,7 +4,6 @@
 var1 = "Lionel Messi\n"
 var2 = "Osamane Dembele\n"
 var3 = "Luis Suarez\n"
-
 var4 = "FC Barcelona"
 
 print(var1 + var2 + var3 + 'are in ' + var4)
