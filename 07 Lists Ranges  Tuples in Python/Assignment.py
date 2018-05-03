@@ -70,8 +70,20 @@ for i in range(0, len(char)):
 print("abc is repeated for {}".format(counter1))
 
 
+char = "abcabdeaba"
+incre=0
+prevCount=0
+index = -1
+for i in range(0, len(char)):
+    incre = 0
+    for j in range(0, len(char)):
+        if char[i] == char[j]:
+            incre += 1
+    if i == 0:
+        prevCount = incre
+    else:
+        if prevCount < incre:
+            prevCount = incre
+            index = char[i]
 
-
-
-
-
+print(str(prevCount)+" with "+char[index])
